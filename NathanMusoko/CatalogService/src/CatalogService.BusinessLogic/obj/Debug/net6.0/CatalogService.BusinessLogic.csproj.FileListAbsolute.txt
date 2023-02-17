@@ -1,0 +1,15 @@
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\obj\Debug\net6.0\CatalogService.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\obj\Debug\net6.0\CatalogService.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\obj\Debug\net6.0\CatalogService.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\obj\Debug\net6.0\CatalogService.BusinessLogic.AssemblyInfo.cs
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\obj\Debug\net6.0\CatalogService.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\bin\Debug\net6.0\CatalogService.BusinessLogic.deps.json
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\bin\Debug\net6.0\CatalogService.BusinessLogic.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\bin\Debug\net6.0\CatalogService.BusinessLogic.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\bin\Debug\net6.0\CatalogService.DataAccess.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\bin\Debug\net6.0\CatalogService.DataAccess.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\obj\Debug\net6.0\CatalogService.BusinessLogic.csproj.CopyComplete
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\obj\Debug\net6.0\CatalogService.BusinessLogic.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\obj\Debug\net6.0\refint\CatalogService.BusinessLogic.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\obj\Debug\net6.0\CatalogService.BusinessLogic.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.BusinessLogic\obj\Debug\net6.0\ref\CatalogService.BusinessLogic.dll

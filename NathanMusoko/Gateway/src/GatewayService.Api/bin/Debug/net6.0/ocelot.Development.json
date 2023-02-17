@@ -1,0 +1,292 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/Account/createuser/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "identityserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/account/createuser/",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/Account/update/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "identityserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/account/update/",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/Account/delete/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "identityserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/account/delete/",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/Account/updateClaim/{id}/{claims}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "identityserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/account/updateclaim/{id}/{claims}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/Account/updatePassword/{newPassword}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "identityserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/account/updatepassword/{newPassword}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/Account/reset/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "identityserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/account/reset/",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/Authorize/authorize",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "identityserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/authorize/login",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/Authorize/refresh/{refreshToken}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "identityserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/authorize/refresh/{refreshToken}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/Authorize/getUserClaim/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "identityserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/authorize/getUserClaim/{id}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/Books/create/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "catalogserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/books/create/",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/Books/get/{genre}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "catalogserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/books/get/{genre}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/Books/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "catalogserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/books/update/{id}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/Books/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "catalogserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/books/delete/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/EditionHouses/getall/{city}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "catalogserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/editionhouse/getall/{city}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/EditionHouses/add/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "catalogserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/editionhouse/add/",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/EditionHouses/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "catalogserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/editionhouse/update/{id}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/EditionHouses/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "catalogserviceapi",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/api/editionhouse/delete/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/orders/create/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "bookingserviceapi",
+          "Port": 5184
+        }
+      ],
+      "UpstreamPathTemplate": "/api/orders/create/",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/orders/update/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "bookingserviceapi",
+          "Port": 5184
+        }
+      ],
+      "UpstreamPathTemplate": "/api/orders/update/{id}",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/orders/delete/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "bookingserviceapi",
+          "Port": 5184
+        }
+      ],
+      "UpstreamPathTemplate": "/api/orders/delete/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/orders/getordersbyuser/{userId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "bookingserviceapi",
+          "Port": 5184
+        }
+      ],
+      "UpstreamPathTemplate": "/api/orders/getordersbyuser/{userId}",
+      "UpstreamHttpMethod": [ "GET" ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP .NET Core service.
+
+version: '3.4'
+
+services:
+  bookingserviceapi:
+    image: bookingserviceapi
+    build:
+      context: ../
+      dockerfile: src/BookingService.Api/Dockerfile
+    ports:
+      - 5184:5184
+
+  sql_server_identity:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    ports:
+      - 1433:1433
+    environment:
+      - SA_PASSWORD=Nathan_musoko123
+      - ACCEPT_EULA=Y
+    volumes:
+      - type: volume
+        source: data
+        target: /var/opt/mssql
+
+volumes:
+  data:
+  #elasticsearch:
+     #container_name: elasticsearch
+     #image: elasticsearch:7.17.6
+     #ports:
+     # - 9200:9200
+     #volumes:
+      #- ./elasticsearchdata:/usr/share/elasticsearch/data
+     #environment:
+       #- xpack.monitoring.enabled=true
+       #- xpack.watcher.enabled=false
+       #- "ES_JAVA_OPTS=-Xms1024m -Xmx1024m"
+       #- discovery.type=single-node
+  #kibana:
+    #container_name: kibana
+    #image: kibana:7.17.6
+    #restart: always
+    #ports:
+      #- 5601:5601
+    #depends_on:
+      #- elasticsearch
+    #environment:
+      #- KIBANA_ELASTICSEARCH_URL=http://elasticsearch:9200
+    #volumes:
+      #- ./kibanadata:/bitnami/kibana
+
+  #rabbitmq:
+    #container_name:
+    #image: 
+    #ports:
+

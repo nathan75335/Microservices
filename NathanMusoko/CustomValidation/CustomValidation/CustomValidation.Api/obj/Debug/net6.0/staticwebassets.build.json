@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oL8n052QLEF6u8Q+HiKrxrkvwvO9LGEMnxRoPeeoqf4=",
+  "Source": "CustomValidation.Api",
+  "BasePath": "_content/CustomValidation.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

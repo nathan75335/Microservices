@@ -1,0 +1,14 @@
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.DataAccess\bin\Debug\net6.0\IdentityService.DataAccess.deps.json
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.DataAccess\bin\Debug\net6.0\IdentityService.DataAccess.runtimeconfig.json
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.DataAccess\bin\Debug\net6.0\IdentityService.DataAccess.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.DataAccess\bin\Debug\net6.0\IdentityService.DataAccess.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.DataAccess\obj\Debug\net6.0\IdentityService.DataAccess.csproj.AssemblyReference.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.DataAccess\obj\Debug\net6.0\IdentityService.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.DataAccess\obj\Debug\net6.0\IdentityService.DataAccess.AssemblyInfoInputs.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.DataAccess\obj\Debug\net6.0\IdentityService.DataAccess.AssemblyInfo.cs
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.DataAccess\obj\Debug\net6.0\IdentityService.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.DataAccess\obj\Debug\net6.0\IdentityService.DataAccess.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.DataAccess\obj\Debug\net6.0\refint\IdentityService.DataAccess.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.DataAccess\obj\Debug\net6.0\IdentityService.DataAccess.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.DataAccess\obj\Debug\net6.0\IdentityService.DataAccess.genruntimeconfig.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.DataAccess\obj\Debug\net6.0\ref\IdentityService.DataAccess.dll

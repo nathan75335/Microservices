@@ -1,0 +1,45 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP .NET Core service.
+
+version: '3.4'
+
+services:
+  catalogserviceapi:
+    image: catalogserviceapi
+    build:
+      context: ./../
+      dockerfile: ./src/CatalogService.Api/Dockerfile
+    ports:
+      - 5082:80
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Nathan_musoko123
+      POSTGRES_DB: CatalogServiceDb
+    ports:
+      - 5432:5432
+    user: root
+    volumes:
+      - db_catalog:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    ports:
+      - 5050:80
+    environment:
+      PGADMIN_DEFAULT_EMAIL: user@user.com
+      PGADMIN_DEFAULT_PASSWORD: Nathan_musoko123
+    user: root
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+
+volumes:
+  db_catalog:
+  pgadmin-data:
+

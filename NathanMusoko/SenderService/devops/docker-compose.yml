@@ -1,0 +1,11 @@
+
+version: '3.4'
+
+services:
+  senderserviceconsumer:
+    image: senderserviceconsumer
+    build:
+      context: ./../
+      dockerfile: ./src/SenderService.Consumer/Dockerfile
+    ports:
+      - 5678:5678

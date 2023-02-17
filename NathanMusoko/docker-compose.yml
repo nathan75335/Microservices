@@ -1,0 +1,135 @@
+version: '3.4'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3.9-management
+    container_name: rabbitmq
+    ports:
+      - 5672:5672
+      - 15672:15672
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+
+  elasticsearch:
+    container_name: elasticsearch
+    image: elasticsearch:7.17.6
+    ports:
+      - 9200:9200
+    volumes:
+      - ./elasticsearchdata:/usr/share/elasticsearch/data
+    environment:
+      - xpack.monitoring.enabled=true
+      - xpack.watcher.enabled=false
+      - "ES_JAVA_OPTS=-Xms1024m -Xmx1024m"
+      - discovery.type=single-node
+  kibana:
+    container_name: kibana
+    image: kibana:7.17.6
+    restart: always
+    ports:
+      - 5601:5601
+    depends_on:
+      - elasticsearch
+    environment:
+      - KIBANA_ELASTICSEARCH_URL=http://elasticsearch:9200
+    volumes:
+      - ./kibanadata:/bitnami/kibana
+
+
+  sql_server_identity:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    ports:
+      - 1433:1433
+    environment:
+      - SA_PASSWORD=Nathan_musoko123
+      - ACCEPT_EULA=Y
+    volumes:
+      - type: volume
+        source: data
+        target: /var/opt/mssql
+
+  postgres:
+    image: postgres
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Nathan_musoko123
+      POSTGRES_DB: CatalogServiceDb
+    ports:
+      - 5432:5432
+    user: root
+    volumes:
+      - db_catalog:/var/lib/postgresql/data
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    ports:
+      - 5050:80
+    environment:
+      PGADMIN_DEFAULT_EMAIL: user@user.com
+      PGADMIN_DEFAULT_PASSWORD: Nathan_musoko123
+    user: root
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+
+  catalogserviceapi:
+    image: catalogserviceapi
+    build:
+      context: .
+      dockerfile: ./CatalogService/src/CatalogService.Api/Dockerfile
+    ports:
+      - 5082:80
+    depends_on:
+      - postgres
+
+  identityserviceapi:
+    image: identityserviceapi
+    build:
+      context: .
+      dockerfile: ./IdentityService/src/IdentityService.Api/Dockerfile
+    ports:
+      - 5091:80
+    depends_on:
+      - sql_server_identity
+
+  bookingserviceapi:
+    image: bookingserviceapi
+    build:
+      context: .
+      dockerfile: ./BookingService/src/BookingService.Api/BookingService.Api/Dockerfile
+    ports:
+      - 5184:5184
+    depends_on:
+      - sql_server_identity
+      - rabbitmq
+
+  senderserviceconsumer:
+    image: senderserviceconsumer
+    build:
+      context: .
+      dockerfile: ./SenderService/src/SenderService.Consumer/Dockerfile
+    ports:
+      - 5678:5678
+    depends_on:
+      - rabbitmq
+  
+  gatewayservice:
+    image: gateway
+    build:
+      context: .
+      dockerfile: ./Gateway/src/Gateway.Api/Dockerfile
+    ports:
+      - 5278:80
+    depends_on:
+      - identityserviceapi
+      - catalogserviceapi
+      - bookingserviceapi
+      - elasticsearch
+
+volumes:
+  data:
+  db_catalog:
+  pgadmin-data:

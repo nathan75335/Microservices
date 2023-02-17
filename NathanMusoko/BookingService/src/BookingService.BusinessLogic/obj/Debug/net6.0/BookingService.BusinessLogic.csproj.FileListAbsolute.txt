@@ -1,0 +1,15 @@
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\bin\Debug\net6.0\BookingService.BusinessLogic.deps.json
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\bin\Debug\net6.0\BookingService.BusinessLogic.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\bin\Debug\net6.0\BookingService.BusinessLogic.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\bin\Debug\net6.0\BookingService.DataAccess.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\bin\Debug\net6.0\BookingService.DataAccess.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\obj\Debug\net6.0\BookingService.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\obj\Debug\net6.0\BookingService.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\obj\Debug\net6.0\BookingService.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\obj\Debug\net6.0\BookingService.BusinessLogic.AssemblyInfo.cs
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\obj\Debug\net6.0\BookingService.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\obj\Debug\net6.0\BookingService.BusinessLogic.csproj.CopyComplete
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\obj\Debug\net6.0\BookingService.BusinessLogic.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\obj\Debug\net6.0\refint\BookingService.BusinessLogic.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\obj\Debug\net6.0\BookingService.BusinessLogic.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.BusinessLogic\obj\Debug\net6.0\ref\BookingService.BusinessLogic.dll

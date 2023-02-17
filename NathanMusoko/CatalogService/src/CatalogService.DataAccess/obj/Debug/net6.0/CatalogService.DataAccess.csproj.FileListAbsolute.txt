@@ -1,0 +1,14 @@
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.DataAccess\bin\Debug\net6.0\CatalogService.DataAccess.deps.json
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.DataAccess\bin\Debug\net6.0\CatalogService.DataAccess.runtimeconfig.json
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.DataAccess\bin\Debug\net6.0\CatalogService.DataAccess.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.DataAccess\bin\Debug\net6.0\CatalogService.DataAccess.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.DataAccess\obj\Debug\net6.0\CatalogService.DataAccess.csproj.AssemblyReference.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.DataAccess\obj\Debug\net6.0\CatalogService.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.DataAccess\obj\Debug\net6.0\CatalogService.DataAccess.AssemblyInfoInputs.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.DataAccess\obj\Debug\net6.0\CatalogService.DataAccess.AssemblyInfo.cs
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.DataAccess\obj\Debug\net6.0\CatalogService.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.DataAccess\obj\Debug\net6.0\CatalogService.DataAccess.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.DataAccess\obj\Debug\net6.0\refint\CatalogService.DataAccess.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.DataAccess\obj\Debug\net6.0\CatalogService.DataAccess.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.DataAccess\obj\Debug\net6.0\CatalogService.DataAccess.genruntimeconfig.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\CatalogService\src\CatalogService.DataAccess\obj\Debug\net6.0\ref\CatalogService.DataAccess.dll

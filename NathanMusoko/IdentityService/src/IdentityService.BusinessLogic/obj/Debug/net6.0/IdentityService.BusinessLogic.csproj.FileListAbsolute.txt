@@ -1,0 +1,15 @@
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\bin\Debug\net6.0\IdentityService.BusinessLogic.deps.json
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\bin\Debug\net6.0\IdentityService.BusinessLogic.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\bin\Debug\net6.0\IdentityService.BusinessLogic.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\bin\Debug\net6.0\IdentityService.DataAccess.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\bin\Debug\net6.0\IdentityService.DataAccess.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\obj\Debug\net6.0\IdentityService.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\obj\Debug\net6.0\IdentityService.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\obj\Debug\net6.0\IdentityService.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\obj\Debug\net6.0\IdentityService.BusinessLogic.AssemblyInfo.cs
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\obj\Debug\net6.0\IdentityService.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\obj\Debug\net6.0\IdentityService.BusinessLogic.csproj.CopyComplete
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\obj\Debug\net6.0\IdentityService.BusinessLogic.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\obj\Debug\net6.0\refint\IdentityService.BusinessLogic.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\obj\Debug\net6.0\IdentityService.BusinessLogic.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\IdentityService\src\IdentityService.BusinessLogic\obj\Debug\net6.0\ref\IdentityService.BusinessLogic.dll

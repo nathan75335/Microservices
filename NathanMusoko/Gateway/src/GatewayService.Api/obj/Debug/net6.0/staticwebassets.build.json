@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LpL6t84/8EQ9tq7goMfaZBIffnLXODbEw0ZkS3+BtoE=",
+  "Source": "GatewayService.Api",
+  "BasePath": "_content/GatewayService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

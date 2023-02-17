@@ -1,0 +1,29 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP .NET Core service.
+
+version: '3.4'
+
+services:
+  identityserviceapi:
+    image: identityserviceapi
+    build:
+      context: ./../
+      dockerfile: ./src/IdentityService.Api/Dockerfile
+    ports:
+      - 5091:80
+    depends_on:
+      - sql_server_identity
+
+  sql_server_identity:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    ports:
+      - 1433:1433
+    environment:
+      - SA_PASSWORD=Nathan_musoko123
+      - ACCEPT_EULA=Y
+    volumes:
+      - type: volume
+        source: data
+        target: /var/opt/mssql
+
+volumes:
+  data:

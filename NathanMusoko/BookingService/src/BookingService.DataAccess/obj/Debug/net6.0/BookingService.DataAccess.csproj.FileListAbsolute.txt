@@ -1,0 +1,14 @@
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.DataAccess\bin\Debug\net6.0\BookingService.DataAccess.deps.json
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.DataAccess\bin\Debug\net6.0\BookingService.DataAccess.runtimeconfig.json
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.DataAccess\bin\Debug\net6.0\BookingService.DataAccess.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.DataAccess\bin\Debug\net6.0\BookingService.DataAccess.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.DataAccess\obj\Debug\net6.0\BookingService.DataAccess.csproj.AssemblyReference.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.DataAccess\obj\Debug\net6.0\BookingService.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.DataAccess\obj\Debug\net6.0\BookingService.DataAccess.AssemblyInfoInputs.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.DataAccess\obj\Debug\net6.0\BookingService.DataAccess.AssemblyInfo.cs
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.DataAccess\obj\Debug\net6.0\BookingService.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.DataAccess\obj\Debug\net6.0\BookingService.DataAccess.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.DataAccess\obj\Debug\net6.0\refint\BookingService.DataAccess.dll
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.DataAccess\obj\Debug\net6.0\BookingService.DataAccess.pdb
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.DataAccess\obj\Debug\net6.0\BookingService.DataAccess.genruntimeconfig.cache
+C:\Users\josh4\OneDrive\Bureau\inter\net-internship\NathanMusoko\BookingService\src\BookingService.DataAccess\obj\Debug\net6.0\ref\BookingService.DataAccess.dll
